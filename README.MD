@@ -26,3 +26,37 @@ The data contains the different data related to a food order. The detailed data 
 * rating: Rating given by the customer out of 5
 * food_preparation_time: Time (in minutes) taken by the restaurant to prepare the food. This is calculated by taking the difference between the timestamps of the restaurant's order confirmation and the delivery person's pick-up confirmation.
 * delivery_time: Time (in minutes) taken by the delivery person to deliver the food package. This is calculated by taking the difference between the timestamps of the delivery person's pick-up confirmation and drop-off information
+
+
+
+## Content:
+* Understanding the structure of the data
+  * Overview of the dataset shape, datatypes - statistical summary and checking for missing values 
+* Univariate Data Analysis
+  * Exploring all the variables and provide observations on the distributions of all the relevant variables in the dataset
+* Multivariate Data Analysis
+  * Performing bivariate/multivariate analysis to explore relationships between the important variables in the dataset
+* Conclusion and Recommendations
+
+## Skills used: 
+* Data Cleaning and Preprocessing:
+  * Handling missing data, duplicates, or outliers.
+  * Formatting or transforming data (e.g., date and time conversions).
+  * Using libraries such as pandas for manipulating DataFrames.
+
+* Data Exploration:
+  * Descriptive statistics (mean, median, mode, etc.).
+  * Grouping, sorting, filtering data to understand its structure.
+  * Data visualization (matplotlib, seaborn) to identify trends, patterns.
+
+* Data Visualization:
+  * Plotting graphs such as histograms, line plots, scatter plots.
+  * Using libraries like matplotlib or seaborn to create visual representations.
+
+* Statistical Analysis:
+  * Conducting correlation analysis to identify relationships between variables.
+  * Hypothesis testing or other inferential statistical methods.
+
+* Feature Engineering:
+  * Transforming raw data into features for use in models.
+  * Creating new features based on domain knowledge.
